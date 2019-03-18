@@ -27,8 +27,8 @@ const IndexPage = ({ data }) => (
             <Image />
 
             <FaApple size={36}/> 
-            <Button>External component Button</Button>
-            <DangerButton>Delete</DangerButton>
+            <Button>Component button</Button>
+            <DangerButton>DangerButton extended from button</DangerButton>
           </div>
         </div>    
       </div>

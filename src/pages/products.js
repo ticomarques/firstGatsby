@@ -19,7 +19,7 @@ const products = ({data}) => {
 
                 {data.allContentfulProdutos.edges.map(({node: product}) => {
                     return (
-                        <div key={product.id} className="col-1-of-3">
+                        <div key={product.id} className="col col-1-of-3">
                             <div style={{padding:'1rem', margin: '1rem 0'}}>
                                 <Img fixed={product.photos.fixed}/>
                                 <h2 style={{textAlign: 'center'}}>{product.title}</h2>

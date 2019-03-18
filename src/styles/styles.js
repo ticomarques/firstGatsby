@@ -110,6 +110,12 @@ p {
 }
 footer {
     clear: both;
+    padding: 20px;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    background:rebeccapurple;
+    color: white;
 }
 .row {
     max-width: ${cssVars.gridWidth};
