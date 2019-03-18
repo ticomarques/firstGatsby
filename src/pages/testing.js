@@ -8,11 +8,11 @@ import Menu from "../components/Menu"
 const testing = () =>  (
     <Layout>  
     <div className="row">
-      <div className="col-1-of-4">
+      <div className="col col-1-of-4">
         <Menu />
       </div>
 
-      <div className="col-3-of-4">
+      <div className="col col-3-of-4">
         <h1>Testing page</h1>
         <p>Welcome to testing page</p>
       </div>

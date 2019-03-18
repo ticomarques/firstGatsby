@@ -8,11 +8,11 @@ const NotFoundPage = () => (
   <Layout>
     <div className="row">
         
-        <div className="col-1-of-4">
+        <div className="col col-1-of-4">
           <p>Menu</p>
         </div>
 
-        <div className="col-3-of-4">
+        <div className="col col-3-of-4">
         <SEO title="404: Not found" />
         <h1>NOT FOUND</h1>
         <p>You just hit a route that doesn&#39;t exist... the sadness.</p>

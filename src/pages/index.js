@@ -14,11 +14,11 @@ const IndexPage = ({ data }) => (
   <Layout>
       <div className="row">
         
-        <div className="col-1-of-4">
+        <div className="col col-1-of-4">
           <Menu />
         </div>
 
-        <div className="col-3-of-4">
+        <div className="col col-3-of-4">
           <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
           <h1>Hi people</h1>
           <p>Welcome to your new Gatsby site.</p>

@@ -10,11 +10,11 @@ const products = ({data}) => {
     return (
     <Layout>
         <div className="row">
-            <div className="col-1-of-4">
+            <div className="col col-1-of-4">
                 <Menu />
             </div>
 
-            <div className="col-3-of-4">
+            <div className="col col-3-of-4">
                 <h1>Our products</h1>
 
                 {data.allContentfulProdutos.edges.map(({node: product}) => {
