@@ -11,7 +11,7 @@ const WrapperMenu = styled.div`
 
         max-width:200px;
         background:rebeccapurple;
-        margin:40px auto;
+        margin:0px auto;
         padding:10px 0px 20px 0px;
         border:1px solid purple;
         border-radius:4px;

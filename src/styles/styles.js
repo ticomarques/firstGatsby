@@ -138,6 +138,7 @@ footer {
 
     .col {
         float: left;
+        margin-top: 2rem;
 
         &:not(:last-child) {
             margin-right: ${cssVars.gutterHorizontal};
